@@ -26,7 +26,7 @@ deploy:
     bucket: springboot-practice-build
     region: ap-northeast-2
     skip_cleanup: true
-    acl: public_read # zip 파일 접근을 private 으로
+    acl: public_read_write # zip 파일 접근을 private 으로
     local_dir: deploy # before_deploy 에서 생성한 디렉토리
     wait-until-deployed: true
 
